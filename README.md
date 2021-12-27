@@ -1,2 +1,2 @@
 # 
-[Minecraft Tournament Website](Minecraft-Tournament.github.io)
+[Minecraft Tournament Website](https://Minecraft-Tournament.github.io)
