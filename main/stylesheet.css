@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hover\:shadow-video-custom:hover {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+}
