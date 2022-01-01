@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #252525; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #facc15; 
+}
+
+/* Handle On Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308; 
+}
+i
 
 .hover\:shadow-video-custom:hover {
   box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
