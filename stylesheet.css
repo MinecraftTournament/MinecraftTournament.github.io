@@ -26,3 +26,93 @@ i
 .hover\:shadow-video-custom:hover {
   box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
 }
+
+
+.btn {
+  @apply border-transparent px-4 py-2 m-2 transition duration-500 ease-in-out select-none focus:outline-none focus:outline;
+}
+
+.btn-home {
+  width: 6.5em;
+  border-width: 1px;
+  color: #ffffff;
+  text-shadow: 0 1.25px 0px #252525;
+  font-weight: 700;
+
+  @apply btn;
+}
+
+.btn-schedule {
+  width: 6.5em;
+  border-width: 1px;
+  color: #ffffff;
+  text-shadow: 0 1.25px 0px #252525;
+  font-weight: 700;
+
+  @apply btn;
+}
+
+
+.btn-blog {
+  width: 6.5em;
+  border-width: 1px;
+  color: #ffffff;
+  text-shadow: 0 1.25px 0px #252525;
+  font-weight: 700;
+
+  @apply btn;
+}
+
+.btn-rules {
+  width: 6.5em;
+  color: #ffffff;
+  text-shadow: 0 1.25px 0px #252525;
+  font-weight: 700;
+
+  @apply btn;
+}
+
+
+.btn-home:hover {
+  border: 1px solid #f5ab67;
+  background-color: #f18725;
+}
+
+.btn-schedule:hover {
+  border: 1px solid #f56767;
+  background-color: #f12525;
+}
+
+.btn-blog:hover {
+  border: 1px solid #68ce53;
+  background-color: #1fc21f;
+}
+
+.btn-rules:hover {
+  border: 1px solid #6770f5;
+  background-color: #254af1;
+}
+
+.active-home {
+  border-color: #f5ab67;
+  background-color: #f18725;
+}
+
+.active-schedule {
+  border-color: #f56767;
+  background-color: #f12525;
+}
+
+.active-blog {
+  border-color: #68ce53;
+  background-color: #1fc21f;
+}
+
+.active-rules {
+  border: #6770f5;
+  background-color: #254af1;
+}
+
+.absolute {
+  position: absolute;
+}

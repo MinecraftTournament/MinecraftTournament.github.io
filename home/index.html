@@ -12,18 +12,18 @@
     <title>Minecraft Tournament</title>
 </head>
 
-<body class="bg-black antialiased">
-    
+<body class="bg-black antialiased relative">
+
     <!-- NAVBAR -->
     <div class="min-w-full absolute z-20">
         <div class="flex justify-center">
-            <a href="/home">
-                <button type="button" class="btn-home">
+            <a>
+                <button type="button" class="btn-home active-home">
                     Home
                 </button>
             </a>
-            <a>
-                <button type="button" class="btn-schedule active-schedule">
+            <a href="/schedule">
+                <button type="button" class="btn-schedule">
                     Schedule
                 </button>
             </a>
@@ -40,9 +40,17 @@
         </div>
     </div>
 
+    <!-- BODY -->
+    <!--Background Image-->
+    <div class="basis-3/4 mb-56">
+        <img src="/assets/overlay.png" class="absolute min-w-full">
+        <img src="/assets/background.jpg" alt="Minecraft Tournament" class="min-w-full">
+    </div>
 
+    <!-- Content -->
     <div class="container mx-auto pb-24">
         <div class="grid grid-cols-2 gap-5">
+            <!--justify-around-->
             <div class="text-gray-500">
                 <div
                     class="border border-white hover:shadow-video-custom transition--all ease-in-out duration-150 cursor-pointer aspect-video relative">
@@ -58,10 +66,17 @@
                     for <a class="font-bold" href="https://www.minecraft.net/de-de/store/minecraft-java-edition"
                         target="blank">Minecraft: Java Edition <i class="fas fa-external-link-alt"></i></a>
                 </p>
+                <p class="mb-4 font-medium text-gray-500">
+                    Whether you are building up your base, exploring vast resource worlds or <br>
+                    completing in-depth quests, we have something for everyone here on <br>
+                    Origin Realms!
+                </p>
+                <p class="font-medium text-gray-500">
+                    <a href="/schedule/">Schedule</a>
+                </p>
             </div>
         </div>
     </div>
-
 
     <div>
         <footer class=" bg-yellow-400">
@@ -90,9 +105,11 @@
                     </div>
                 </div>
             </div>
+
         </footer>
+
     </div>
-    
+
 </body>
 
 </html>
