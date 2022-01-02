@@ -868,6 +868,7 @@ i
 
 .btn-participate {
   width: 7em;
+  border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
   font-weight: 700;
