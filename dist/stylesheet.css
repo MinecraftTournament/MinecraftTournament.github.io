@@ -780,7 +780,7 @@ i
 }
 
 .btn-home {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -809,7 +809,7 @@ i
 }
 
 .btn-schedule {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -838,7 +838,7 @@ i
 }
 
 .btn-blog {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -866,8 +866,8 @@ i
   outline-style: solid;
 }
 
-.btn-rules {
-  width: 6.5em;
+.btn-participate {
+  width: 7em;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
   font-weight: 700;
@@ -888,7 +888,7 @@ i
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-rules:focus {
+.btn-participate:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   outline-style: solid;
@@ -909,7 +909,7 @@ i
   background-color: #1fc21f;
 }
 
-.btn-rules:hover {
+.btn-participate:hover {
   border: 1px solid #6770f5;
   background-color: #254af1;
 }
@@ -929,7 +929,7 @@ i
   background-color: #1fc21f;
 }
 
-.active-rules {
+.active-participate {
   border: #6770f5;
   background-color: #254af1;
 }

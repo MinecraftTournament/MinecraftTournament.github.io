@@ -33,7 +33,7 @@ i
 }
 
 .btn-home {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -43,7 +43,7 @@ i
 }
 
 .btn-schedule {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -54,7 +54,7 @@ i
 
 
 .btn-blog {
-  width: 6.5em;
+  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -63,8 +63,8 @@ i
   @apply btn;
 }
 
-.btn-rules {
-  width: 6.5em;
+.btn-participate {
+  width: 7em;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
   font-weight: 700;
@@ -88,7 +88,7 @@ i
   background-color: #1fc21f;
 }
 
-.btn-rules:hover {
+.btn-participate:hover {
   border: 1px solid #6770f5;
   background-color: #254af1;
 }
@@ -108,7 +108,7 @@ i
   background-color: #1fc21f;
 }
 
-.active-rules {
+.active-participate {
   border: #6770f5;
   background-color: #254af1;
 }
