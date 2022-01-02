@@ -33,7 +33,6 @@ i
 }
 
 .btn-home {
-  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -43,7 +42,6 @@ i
 }
 
 .btn-schedule {
-  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -53,8 +51,7 @@ i
 }
 
 
-.btn-blog {
-  width: 7em;
+.btn-event {
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -64,7 +61,6 @@ i
 }
 
 .btn-participate {
-  width: 7em;
   border-width: 1px;
   color: #ffffff;
   text-shadow: 0 1.25px 0px #252525;
@@ -84,7 +80,7 @@ i
   background-color: #f12525;
 }
 
-.btn-blog:hover {
+.btn-event:hover {
   border: 1px solid #68ce53;
   background-color: #1fc21f;
 }
@@ -104,7 +100,7 @@ i
   background-color: #f12525;
 }
 
-.active-blog {
+.active-event {
   border-color: #68ce53;
   background-color: #1fc21f;
 }
