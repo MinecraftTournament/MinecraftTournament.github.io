@@ -42,13 +42,13 @@
 
     <!-- BODY -->
     <!--Background Image-->
-    <div class="basis-3/4 mb-56">
+    <div class="basis-3/4 mb-28">
         <img src="/assets/overlay.png" class="absolute min-w-full">
         <img src="/assets/background.jpg" alt="Minecraft Tournament" class="min-w-full">
     </div>
 
     <!-- Content -->
-    <div class="container mx-auto pb-24">
+    <section id="trailer" class="container mx-auto pt-24 pb-24">
         <div class="grid grid-cols-2 gap-5">
             <!--justify-around-->
             <div class="text-gray-500">
@@ -76,39 +76,62 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div>
-        <footer class=" bg-yellow-400">
-            <div class="bg-yellow-500">
-                <div class="container mx-auto">
-                    <div class="py-3 px-6 md:flex md:items-center md:justify-between">
-                        <div
-                            class="flex relative font-bold text-sm uppercase justify-center lg:items-stretch transition-opacity duration-150 ease-in-out hover:opacity-80 cursor-pointer">
-                            <div class="bg-yellow-600 tracking-widest py-2 px-3 text-yellow-900">
-                                play.mct.com
-                            </div>
-                            <div class="flex items-center px-3 tracking-wide bg-yellow-600 opacity-80 text-yellow-900">
-                                420
-                            </div>
-                        </div>
+    <section id="discord">
+        <div class="container mx-auto px-10 py-10 md:pb-32">
+            <div class="grid lg:grid-cols-2 gap-3 items-center">
+                <div class="img text-center">
+                    <img src="/assets/discord.png" class="block mx-auto md:h-discord">
+                </div>
+                <div class="text text-center lg:text-left">
+                    <h2 class="text-white text-3xl font-bold mb-4">
+                        Let's be social!
+                    </h2>
+                    <p class="mb-4 text-gray-500 font-medium">
+                        Here on Origin Realms we think communication is the key to an
+                        amazing community. Because of that, we heavily value our Discord and the way it allows us to connect
+                        with our favourite people ever - you! Come join us, and let's create our origin - together!
+                    </p>
+                    <a href="https://discord.com/invite/X9WKPgHYpH" target="_blank"
+                        class="btn-discord">
+                        Join our Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class=" bg-yellow-400">
+        <div class="bg-yellow-500">
+            <div class="container mx-auto">
+                <div class="py-1 px-6 md:flex md:items-center">
+                    <div class="socials flex flex-wrap justify-center mt-4 md:mt-0 text-ip-900">
+                        <a href="https://discord.com/invite/X9WKPgHYpH" target="_blank"
+                            class="block p-3 transition duration-150 ease-in-out hover:opacity-75">
+                            <i class="fa-brands fa-discord text-yellow-900 text-base"></i>
+                        </a>
+                        <a href="https://twitter.com/MCT_Tournament" target="_blank"
+                            class="block p-3 transition duration-150 ease-in-out hover:opacity-75">
+                            <i class="fa-brands fa-twitter text-yellow-900 text-base"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="container mx-auto flex flex-col md:flex-row md:items-center p-6">
-                <div class="text">
-                    <div class="text-black opacity-80 leading-tight">
-                        Minecraft Tournament
-                    </div>
-                    <div class="text-yellow-900 leading-tight">
-                        We are in no way affiliated with or endorsed by Mojang, AB.
-                    </div>
+        </div>
+        <div class="container mx-auto flex flex-col md:flex-row md:items-center p-6">
+            <div class="text">
+                <div class="text-black opacity-80 leading-tight">
+                    Minecraft Tournament
+                </div>
+                <div class="text-yellow-900 leading-tight">
+                    We are in no way affiliated with or endorsed by Mojang, AB.
                 </div>
             </div>
-
-        </footer>
-
-    </div>
+        </div>
+    </footer>
+    
 
 </body>
 

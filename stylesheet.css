@@ -116,3 +116,11 @@ i
 .absolute {
   position: absolute;
 }
+
+.btn-discord {
+  color: #5d5da7;
+  background-color: #c1caff;
+  box-shadow: 0 5px #8590d3;
+
+  @apply inline-block border py-3 px-6 uppercase font-extrabold tracking-wide transition-opacity duration-150 ease-in-out hover:opacity-75 mt-3 cursor-pointer;
+}
