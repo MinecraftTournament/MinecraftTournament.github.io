@@ -960,12 +960,12 @@ i
 }
 
 .timeline-container {
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding: 0 0 25px 0;
 }
 
 .timeline {
@@ -982,10 +982,18 @@ i
 
 .timeline ul li {
   padding: 20px;
-  background-color: #1e1f22;
+  background-color: #1767ad;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+#ongoing_event {
+  background-color: #dba607;
+}
+
+#coming_event {
+  background-color: #3c4146;
 }
 
 .timeline ul li:last-child {
@@ -1072,6 +1080,62 @@ i
   .timeline ul li:hover::before {
     background-color: #facc15;
   }
+}
+
+.winner_team {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .winner_team {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .winner_team {
+    flex-direction: row;
+  }
+}
+
+.winners {
+  padding: 0.25rem;
+  margin: 0.5rem 0 0 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0.1rem solid white;
+}
+
+.winners p {
+  padding: 0 2px 0 2px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.winner-avatars {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-winner-avatars {
+  padding: 0.225rem;
+  border: 0.175rem solid rgba(16, 72, 122, 0.25);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+  transition-duration: 500ms;
+}
+
+.btn-winner-avatars:hover {
+  border: 0.175rem solid rgba(250, 204, 21, 1);
 }
 
 .hover\:opacity-80:hover {
