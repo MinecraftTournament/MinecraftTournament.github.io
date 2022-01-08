@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/stylesheet.css" rel="stylesheet">
+    <script src="/schedule/schedule_item.js"></script>
 
     <script src="https://kit.fontawesome.com/e550f88b2c.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/crown_32px.ico">
-    <title>Minecraft Tournament</title>
+    <title>Schedule - Minecraft Tournament</title>
 </head>
 
 <body class="bg-black antialiased relative text-white">
@@ -62,6 +63,35 @@
                                     voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
                                 </p>
 
+                                <div class="teams">
+                                    <p>
+                                        Teams
+                                    </p>
+                                    <div class="team-avatars">
+                                        <a><button>
+                                            <img src="/assets/teams/red_team.png" class="team-icons" title="Red Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/aqua_team.png" class="team-icons" title="Aqua Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/blue_team.png" class="team-icons" title="Blue Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/green_team.png" class="team-icons" title="Green Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/lime_team.png" class="team-icons" title="Lime Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/purple_team.png" class="team-icons" title="Purple Team">
+                                        </button></a>
+                                        <a><button>
+                                            <img src="/assets/teams/pink_team.png" class="team-icons" title="Pink Team">
+                                        </button></a>
+                                    </div>
+                                </div>
+
                                 <div class="winner_team">
                                     <div class="winners">
                                         <p>
@@ -108,14 +138,62 @@
                                 </div>
                             </div>
                         </li>
+
+
+
                         <li id="ongoing_event">
                             <div class="timeline-content">
-                                <h3 class="date">21th may, 2022</h3>
-                                <h1>2nd MCT Event</h1>
+                                <h3 class="date">20th may, 2022</h3>
+                                <h1>1st MCT Event</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab
                                     laudantium
                                     voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
                                 </p>
+                        
+                                <div class="winner_team">
+                                    <div class="winners">
+                                        <p>
+                                            Winners
+                                        </p>
+                                        <div class="winner-avatars">
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <p>1st <i class="fas fa-trophy"></i></p>
+                                        <div class="winner-avatars">
+                                            <a>
+                                                <button type="button" class="btn-winner-avatars">
+                                                    <img src="/assets/mark.png">
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         <li id="coming_event">
@@ -128,6 +206,14 @@
                                 </p>
                             </div>
                         </li>
+                        <!--
+                            <li id="coming_event">
+                                <schedule-item></schedule-item>
+                            </li>
+                            <li id="coming_event">
+                                <schedule-item></schedule-item>
+                            </li>
+                        -->
                     </ul>
                 </div>
             </div>
