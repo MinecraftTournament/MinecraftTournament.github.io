@@ -483,10 +483,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 7rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -631,29 +627,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 6rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-
 .pb-24 {
   padding-bottom: 6rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
 }
 
 .text-center {
@@ -1220,6 +1195,10 @@ i
 }
 
 #event {
+  padding: 0 12rem 0 12rem;
+}
+
+#faq {
   padding: 0 12rem 0 12rem;
 }
 
