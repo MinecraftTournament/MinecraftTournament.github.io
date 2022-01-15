@@ -749,8 +749,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: #eab308;
 }
 
-i
-
 .hover\:shadow-video-custom:hover {
   box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
 }
@@ -1253,6 +1251,10 @@ i
   margin-right: 3rem;
 }
 
+.mb-8 {
+  margin-bottom: 32px;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -1271,6 +1273,74 @@ i
 
 #faq {
   padding: 0 12rem 0 12rem;
+}
+
+.form {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: rgb(13, 14, 15);
+  padding: 60px;
+  width: 550px;
+  max-width: calc(100% - 60px);
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form-element span {
+  margin-bottom: 10px;
+}
+
+form textarea {
+  min-height: 108px;
+}
+
+input, textarea {
+  border: 1px solid #B3FFCD;
+  line-height: 2;
+  padding: 5px 5px 5px 10px;
+  border-radius: 1px;
+  background-color: #0d0e0f;
+}
+
+.duration-350 {
+  transition-duration: 350ms;
+}
+
+.submit-btn-green {
+  color: #458A5D;
+  background-color: #B3FFCD;
+  box-shadow: 0 5px #80D69E;
+  border-color: #99ffbd;
+  margin-top: 0.75rem;
+  display: inline-block;
+  cursor: pointer;
+  border-width: 1px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  transition-property: opacity;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 800;
+}
+
+.submit-btn-purple {
+  color: #6C3E85;
+  background-color: #E2ABFF;
+  box-shadow: 0 5px #AD63D6;
+  border-color: #cf76ff;
 }
 
 .hover\:opacity-80:hover {

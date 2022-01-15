@@ -43,14 +43,38 @@
     <!-- BODY -->
 
     <!-- Content -->
-    <section id="form">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeSPbl91u33MR1HkbSDhWYLGVOR005YajlDu6YrEvz6ALb7Hw/viewform?embedded=true"
-            width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">
-            Loading the form…
-        </iframe>
+    <section id="form" class="pt-8">
+        <div class="container mx-auto form">
+            <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeSPbl91u33MR1HkbSDhWYLGVOR005YajlDu6YrEvz6ALb7Hw/formResponse"
+                method="post">
+                <h1 class="text-3xl mb-8">Apply To Participate</h1>
+                <div class="form-element">
+                    <span>Email Adress</span>
+                    <input type="email" name="emailAddress" placeholder="Email" required>
+                </div>
+                <div class="form-element">
+                    <span>Minecraft Java Edition Nickname</span>
+                    <input type="text" name="entry.2069524258" placeholder="Nickname" required>
+                </div>
+                <div class="form-element">
+                    <span>Discord ID</span>
+                    <input type="text" name="entry.676734337" placeholder="Discord ID" required>
+                </div>
+                <div class="form-element">
+                    <span>Timezone</span>
+                    <input type="text" name="entry.715764824" placeholder="Timezone" required>
+                </div>
+                <div class="form-element">
+                    <span>Social Media Links</span>
+                    <textarea name="entry.1630713506" id="" cols="30" rows="5" placeholder="Social Media"></textarea>
+                </div>
+    
+                <button type="submit" class="submit-btn-green">Send Message</button>
+            </form>
+    
+        </div>
     </section>
-
 
     <footer class=" bg-yellow-400">
         <div class="bg-yellow-500">
@@ -80,7 +104,6 @@
             </div>
         </div>
     </footer>
-
 
 </body>
 
