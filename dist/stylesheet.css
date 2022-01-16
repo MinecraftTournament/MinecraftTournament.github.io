@@ -598,8 +598,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .pt-24 {
@@ -608,14 +608,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-24 {
   padding-bottom: 6rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -1337,10 +1329,10 @@ input, textarea {
 }
 
 .back-btn {
-  color: #905c0f;
-  background-color: #facc15;
-  box-shadow: 0 5px #eab308;
-  border-color: #e7a428;
+  color: #6C3E85;
+  background-color: #E2ABFF;
+  box-shadow: 0 5px #AD63D6;
+  border-color: #cf76ff;
   margin-top: 2rem;
   display: inline-block;
   cursor: pointer;
