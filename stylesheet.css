@@ -361,6 +361,10 @@
   padding-top: 2rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -461,4 +465,41 @@ input, textarea {
   background-color: #E2ABFF;
   box-shadow: 0 5px #AD63D6;
   border-color: #cf76ff;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.submitted_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitted {
+  background-color: #0d0e0f;
+  padding: 20px;
+  width: 450px;
+  max-width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-btn {
+  color: #6C3E85;
+  background-color: #E2ABFF;
+  box-shadow: 0 5px #AD63D6;
+  border-color: #cf76ff;
+  margin-top: 2rem;
+
+  @apply inline-block border py-2 px-12 uppercase font-extrabold transition-opacity duration-150 ease-in-out cursor-pointer;
+}
+
+.fixed_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

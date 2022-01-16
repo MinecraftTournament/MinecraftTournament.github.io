@@ -1230,6 +1230,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -1341,6 +1345,53 @@ input, textarea {
   background-color: #E2ABFF;
   box-shadow: 0 5px #AD63D6;
   border-color: #cf76ff;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.submitted_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitted {
+  background-color: #0d0e0f;
+  padding: 20px;
+  width: 450px;
+  max-width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-btn {
+  color: #6C3E85;
+  background-color: #E2ABFF;
+  box-shadow: 0 5px #AD63D6;
+  border-color: #cf76ff;
+  margin-top: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  border-width: 1px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-transform: uppercase;
+  transition-property: opacity;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 800;
+}
+
+.fixed_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .hover\:opacity-80:hover {
