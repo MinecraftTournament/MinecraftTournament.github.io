@@ -488,13 +488,41 @@ input, textarea {
 }
 
 .back-btn {
-  color: #6C3E85;
-  background-color: #E2ABFF;
-  box-shadow: 0 5px #AD63D6;
-  border-color: #cf76ff;
+  color: #905c0f;
+  background-color: #facc15;
+  box-shadow: 0 5px #eab308;
+  border-color: #e7a428;
   margin-top: 2rem;
 
   @apply inline-block border py-2 px-12 uppercase font-extrabold transition-opacity duration-150 ease-in-out cursor-pointer;
+}
+
+
+.box_404 {
+  background-color: #0d0e0f;
+  padding: 20px;
+  width: 450px;
+  max-width: calc(100% - 60px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_404 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-home-btn {
+  color: #5C4110;
+  background-color: #FFB62C;
+  box-shadow: 0 5px #C28A21;
+  border-color: #E8A527;
+  margin-top: 2rem;
+
+  @apply inline-block border py-2 px-6 uppercase font-extrabold transition-opacity duration-150 ease-in-out cursor-pointer;
 }
 
 .fixed_footer {
