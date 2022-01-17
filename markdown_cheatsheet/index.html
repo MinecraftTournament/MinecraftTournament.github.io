@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/markdown_stylesheet.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e550f88b2c.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/crown_32px.ico">
+    <title>Markdown - Minecraft Tournament</title>
+</head>
+
+<body class="bg-black antialiased relative text-white">
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        const _text = "";
+        fetch('/assets/markdown/cheatsheet.md')
+            .then(response => response.text())
+            .then(text => parseContent(text))
+
+        function parseContent(content) {
+            document.getElementById('content').innerHTML = marked.parse(content);
+        }
+    </script>
+</body>
+
+</html>
